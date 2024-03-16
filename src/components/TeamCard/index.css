@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+  width: 40%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+
+  margin: 10px;
+  background-color: #ffffff33;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-url {
+  width: auto;
+  height: 80px;
+}
+@media screen and (min-width: 768px) {
+  .image-url {
+    height: 150px;
+    width: auto;
+  }
+}
+.team-name {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-family: 'Bree Serif';
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+}
